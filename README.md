@@ -16,7 +16,8 @@ To learn more and get started, visit https://tinytapeout.com.
 
 1. Install [OpenLane 2 with nix](https://openlane2.readthedocs.io/en/latest/getting_started/nix_installation/index.html).
    Set the `OPENLANE2_ROOT` environment variable to the path where you cloned the openlane2 repository.
-2. Run the following command:
+2. Clone tt-support-tools: `git clone -b tt06 https://github.com/TinyTapeout/tt-support-tools tt`
+3. Run the following command:
 
 ```bash
 rm -rf runs && nix-shell ${OPENLANE2_ROOT}/shell.nix --run "python build.py"
