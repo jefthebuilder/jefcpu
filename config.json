@@ -18,7 +18,12 @@
       },
       "gds": ["dir::macros/RAM32.gds"],
       "lef": ["dir::macros/RAM32.lef"],
-      "nl": ["dir::macros/RAM32.nl.v"]
+      "nl": ["dir::macros/RAM32.nl.v"],
+      "spef": {
+        "min_*": ["dir::macros/RAM32.min_.spef"],
+        "nom_*": ["dir::macros/RAM32.nom_.spef"],
+        "max_*": ["dir::macros/RAM32.max_.spef"]
+      }
     }
   },
 
