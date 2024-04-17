@@ -43,6 +43,9 @@
   "DIE_AREA": [0, 0, 508.76, 225.76],
   "FP_DEF_TEMPLATE": "dir::tt/def/tt_block_3x2_pg.def",
 
+  "//": "MAGIC_DEF_LABELS may cause issues with LVS",
+  "MAGIC_DEF_LABELS": false,
+
   "//": "use alternative efabless decap cells to solve LI density issue",
   "DECAP_CELL": [
     "sky130_fd_sc_hd__decap_3",
