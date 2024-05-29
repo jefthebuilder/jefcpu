@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "DFFRAM Example (128 bytes)"      # Project title
-  author:       "Uri Shaked"      # Your name
+  author:       "jef"      # Your name
   discord:      "urish"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "128 bytes DFFRAM module"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
@@ -16,6 +16,7 @@ project:
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:
     - "dffram.v"
+    - "alu.v"
     - "RAM32.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
